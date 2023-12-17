@@ -1,0 +1,43 @@
+.main{
+    margin-top: 160px;
+    position: relative;
+    
+
+    .container{
+        max-width: 1110px;
+        height: 386px;
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+        margin-bottom: 380px;
+
+        .box-1{
+            max-width: 350px;
+            height: 386px;
+
+            img{
+                text-align: center;
+                margin: 0 auto;
+                display: flex;
+            }
+            h3{
+                text-align: center;
+                width: 350px;
+                padding-top: 48px;
+            }
+            p{
+                color: #333136;
+                max-width: 350px;
+                text-align: center;
+                font-family: Jost;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                padding-top: 32px;
+            }
+        }
+    }
+
+
+    
+}

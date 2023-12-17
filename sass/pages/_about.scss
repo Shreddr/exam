@@ -1,0 +1,223 @@
+.web{
+    background-image: url(/static/imgs/jpg/web.jpg);
+    max-width: 1111px;
+    height: 252px;
+    margin: 0 auto;
+    h1{
+        margin: 0  auto;
+        text-align: center;
+        padding-top: 64px;
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    p{
+        padding-top: 15px;
+        margin: 0 auto;
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        max-width: 430px;
+        height: 52px;
+    }
+}
+.rund-1{
+    max-width: 1111px;
+    margin: 0 auto;
+    padding-top: 158px;
+    display: flex;
+    gap: 30px;
+
+    .card-1{
+        max-width: 350px;
+        height: 478px;
+        position: relative;
+        background: #FDF3F0;
+        border-radius: 0 0 7px 7px;
+        
+        img{
+            border-radius: 14px 14px 0 0;
+        }
+
+        h1{
+            text-align: center;
+            color: #E7816B;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+            letter-spacing: 5px;
+            padding-top: 32px;   
+
+        }
+        p{
+            color: #333136;
+            text-align: center;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            max-width: 286px;
+            text-align: center;
+            margin: 0   auto;
+            line-height: 26px; /* 162.5% */
+        }
+    }
+    
+}
+
+.rund-2{
+    max-width: 1111px;
+    margin: 0 auto;
+    padding-top: 32px;
+    display: flex;
+    gap: 30px;
+    
+
+    .card-1{
+        max-width: 350px;
+        height: 478px;
+        position: relative;
+        background: #FDF3F0;
+        border-radius: 0 0 7px 7px;
+        
+        img{
+            border-radius: 14px 14px 0 0;
+        }
+
+        h1{
+            text-align: center;
+            color: #E7816B;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+            letter-spacing: 5px;
+            padding-top: 32px;   
+
+        }
+        p{
+            color: #333136;
+            text-align: center;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            max-width: 286px;
+            text-align: center;
+            margin: 0   auto;
+            line-height: 26px; /* 162.5% */
+        }
+    }
+}
+.app{
+    max-width: 1111px;
+    height: 308px;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    padding-top: 160px;
+    padding-bottom: 320px;
+
+
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Jost;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 120% */
+        letter-spacing: 2px;
+        padding-top: 107px;
+    }
+    p{
+        color: #FFF;
+        font-family: Jost;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        padding-top: 24px;
+        text-align: center;
+    }
+
+    .design{
+        background-image: url(/static/imgs/jpg/computer.png);
+        object-fit: cover;
+        background-position: center;
+        width: 541px;
+        height: 308px;
+        border-radius: 14px;
+        
+    }
+    .gra{
+        background-image: url(/static/imgs/jpg/Abstract.jpg);
+        width: 541px;
+        height: 308px;
+    }
+}
+
+
+
+
+
+.rund-2{
+    max-width: 1111px;
+    margin: 0 auto;
+    padding-top: 32px;
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    
+
+    .card-1{
+        max-width: 350px;
+        height: 478px;
+        position: relative;
+        background: #FDF3F0;
+        border-radius: 0 0 7px 7px;
+        
+        img{
+            border-radius: 14px 14px 0 0;
+        }
+
+        h1{
+            text-align: center;
+            color: #E7816B;
+            text-align: center;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 130% */
+            letter-spacing: 5px;
+            padding-top: 32px;   
+
+        }
+        p{
+            color: #333136;
+            text-align: center;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            max-width: 286px;
+            text-align: center;
+            margin: 0   auto;
+            line-height: 26px; /* 162.5% */
+        }
+    }
+}

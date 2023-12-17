@@ -1,0 +1,69 @@
+.endlich {
+  max-width: 1111px;
+  height: 480px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+  background-image: url(/static/imgs/about/endlich.jpg);
+
+  .fur-text {
+    max-width: 445px;
+
+    h1 {
+      width: 540px;
+      color: #fff;
+      font-family: Jost;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 100% */
+      padding-bottom: 32px;
+    }
+    p {
+      width: 445px;
+      color: #fff;
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-top: -2 50px;
+  }
+  input {
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 38px;
+    border-bottom: 1px solid white;
+    background: transparent;
+  }
+  input::placeholder {
+    color: #fff;
+    opacity: 0.5;
+  }
+  .are {
+    width: 380px;
+    height: 102px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+    resize: none;
+  }
+  .are::placeholder {
+    color: #fff;
+    opacity: 0.5;
+  }
+  .btn {
+    margin-left: 225px;
+  }
+}

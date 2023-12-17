@@ -1,0 +1,40 @@
+.wrapper{
+    max-width: 1111px;
+    height: 640px;
+    margin: 0 auto;
+    background-image: url(/static/imgs/png/birinchi_page.jpg);
+    display: flex;
+
+    img{
+        padding-top: 60px;
+    }
+    .content{
+        padding: 145px 95px;
+        h1{
+            max-width: 540px;
+            height: 165px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            align-items: center;
+            display: flex;
+            // text-align: center;
+            padding-bottom: 11px;
+
+        }
+        p{
+            max-width: 420px;
+            color: #FFF;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            align-items: center;
+            display: flex;
+            // text-align: center;
+            padding-bottom: 40px;
+        }
+    }
+}

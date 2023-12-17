@@ -1,1 +1,113 @@
- 
+.footer {
+  width: 100%;
+  height: 393px;
+  background: #1d1c1e;
+  position: relative;
+}
+.position {
+  position: absolute;
+  // top: 2200px;
+  top: -375px;
+  margin: 0 auto;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  // margin-bottom: 200px
+}
+
+.last-pise {
+  max-width: 1111px;
+  height: 292px;
+  margin: 0 auto;
+
+  // position: relative;
+
+  .bg {
+    margin-top: 160px;
+    max-width: 1111px;
+    height: 292px;
+    display: flex;
+
+    justify-content: space-between;
+    background-image: url(/static/imgs/png/last-pise.png);
+  }
+  .lets {
+    max-width: 459px;
+    height: 176px;
+    margin: 0 auto;
+
+    padding-top: 72px;
+    padding: 72px 160px;
+    h1 {
+      width: 268px;
+      height: 98px;
+      color: #fff;
+
+      font-family: Jost;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    p {
+      max-width: 459px;
+      color: #fff;
+
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}
+.footer-2 {
+  width: 100%;
+  height: 300px;
+  background: #1d1c1e;
+  position: relative;
+  margin-top: 320px;
+}
+
+.last-pise {
+  max-width: 1111px;
+  height: 292px;
+  margin: 0 auto;
+
+  // position: relative;
+
+  .bg {
+    margin-top: 160px;
+    max-width: 1111px;
+    height: 292px;
+    display: flex;
+
+    justify-content: space-between;
+    background-image: url(/static/imgs/png/last-pise.png);
+  }
+  .lets {
+    max-width: 459px;
+    height: 176px;
+    margin: 0 auto;
+
+    padding-top: 72px;
+    padding: 72px 160px;
+    h1 {
+      width: 268px;
+      height: 98px;
+      color: #fff;
+
+      font-family: Jost;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    p {
+      max-width: 459px;
+      color: #fff;
+
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}

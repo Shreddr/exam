@@ -1,0 +1,142 @@
+.us {
+  background-image: url(/static/imgs/jpg/5.jpg);
+  max-width: 1111px;
+  height: 480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+
+  .text {
+    max-width: 540px;
+    height: 210px;
+    padding-top: 125px;
+    padding-left: 94px;
+    h1 {
+      max-width: 540px;
+      color: #fff;
+      font-family: Jost;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 100% */
+    }
+
+    p {
+      color: #fff;
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+      max-width: 458px;
+      padding-top: 32px;
+    }
+  }
+}
+.us-2 {
+  background-image: url(/static/imgs/about/bg-1.jpg);
+  max-width: 1111px;
+  height: 640px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+
+  img {
+    width: 476px;
+    height: 640px;
+  }
+
+  .text-2 {
+    max-width: 540px;
+    height: 332px;
+    padding-top: 154px;
+    padding-left: 94px;
+    h1 {
+      max-width: 540px;
+      color: #e7816b;
+
+      font-family: Jost;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 120% */
+    }
+
+    p {
+      color: #333136;
+      max-width: 445px;
+      font-family: Jost;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+    }
+  }
+}
+.city {
+  max-width: 1111px;
+  height: 210px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 160px;
+
+  .klein {
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+      color: #333136;
+      text-align: center;
+      font-family: Jost;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px; /* 130% */
+      letter-spacing: 5px;
+      padding-top: 48px;
+      padding-bottom: 32px;
+    }
+  }
+}
+.us-3 {
+  width: 1111px;
+  height: 640px;
+  background-image: url(/static/imgs/about/bg-2.jpg);
+  border-radius: 15px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 320px;
+  gap: 94;
+  justify-content: space-between;
+  margin-bottom: 320px;
+
+  .text-3 {
+    display: flex;
+    // align-items: center;
+
+    flex-direction: column;
+    justify-content: center;
+    // margin: 0 auto;
+  }
+  h1 {
+    color: #e7816b;
+    padding-bottom: 24px;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    padding-left: 95px;
+  }
+  p {
+    color: #333136;
+    max-width: 445px;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-left: 95px;
+  }
+}
