@@ -312,6 +312,9 @@ table {
   font-style: normal;
   font-weight: 400;
 }
+.navbar a:hover {
+  border-bottom: 1px solid black;
+}
 .navbar img {
   width: 196px;
   height: 24px;
